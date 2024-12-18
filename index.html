@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>Earth</h1></div>
+                <ul class="nav-links">
+                    <li><a href="explore.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+                <div class="menu-btn"><img src="./img/menu.svg" alt=""/></div>
+            </nav>
+
+            <div class="header-content">
+                <h1>EARTH</h1>
+                <p>ENDLESS POTENTIAL</p>
+                <form action="explore.html" method="GET">
+                <button class="primary-btn">EXPLORE</button>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="Service">
+            <img src="./img/service-1.png" alt=""/>
+            <h1>Web Designing</h1>
+            <p>
+                Custom web design for small businesses, we help you capture new
+                audience and increase your sales.
+            </p>
+        </div>
+
+        <div class="Service">
+            <img src="./img/service-2.png" alt=""/>
+            <h1>Graphics Designing</h1>
+            <p>
+                Custom web design for small businesses, we help you capture new
+                audience and increase your sales.
+            </p>
+        </div>
+
+        <div class="Service">
+            <img src="./img/service-3.png" alt=""/>
+            <h1>Content Creation</h1>
+            <p>
+                Custom web design for small businesses, we help you capture new
+                audience and increase your sales.
+            </p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <div class="about-content">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum molestiae sit exercitationem minus. Natus labore quo deleniti magni nesciunt facilis accusamus enim. Delectus accusantium, maxime natus odio similique eius necessitatibus?</p>
+        </div>
+        <div class="about-img">
+            <img src="./img/about.png"alt=""/>
+        </div>
+    </section>
+
+    <section id="talk-to-us">
+        <div class="talk-to-us-content">
+            <h1>Talk-to-us</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quia ex aspernatur vero aperiam laudantium culpa provident nostrum dolore adipisci at, voluptatem, enim ipsam, deserunt earum assumenda eos commodi distinctio!
+            </p>
+            <button class="primary-btn">GET IN TOUCH</button>
+        </div>
+    </section>
+
+   <footer>
+    <ul class="footerlinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <h1 class="logo">EARTH</h1>
+    <P>@2022 Earth.All right reserved.</P>
+   </footer>
+
+    <script>
+        const menuBtn = document.querySelector('menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', function(){
+            navLinks.classList.toggle('active')
+        })
+    </script>
+    
+</body>
+</html>
